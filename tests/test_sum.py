@@ -3,7 +3,7 @@ from os.path import join, dirname, abspath
 
 sys.path.append(join(abspath(dirname(__file__)), "../src"))
 import pytest
-from sum import sum
+from sum import sumd
 
 @pytest.mark.parametrize("a", [1])
 @pytest.mark.parametrize("b", [4, 5])
